@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Node Chat App</title>
+		<link rel="stylesheet" type="text/css" href="styles/chat.css">
+	</head>
+	<body>
+		<div id="container">
+			<h1>
+				Nodejs + Scket.IO chat app
+			</h1>
+			<div id="chatSection">
+				<div class="chat-window"></div>
+				<form class="chat-form">
+					<label class="chat-label">
+						Enter message:
+						<input type="text" class="chat-input" />
+					</label>
+					<input type="submit" class="chat-submit" value="enter" />
+				</form>
+			</div>
+		</div>
+	<script type="text/javascript" src="socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="chat.js"></script>
+	</body>
+</html>
